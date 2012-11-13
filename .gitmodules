@@ -1,0 +1,9 @@
+[submodule "public/jquery/dropdown"]
+	path = public/jquery/dropdown
+	url = git@github.com:sandro-pasquali/jquery-dropdown.git
+[submodule "public/jquery/accordion"]
+	path = public/jquery/accordion
+	url = git@github.com:sandro-pasquali/jquery.accordion.git
+[submodule "public/jquery/gritter"]
+	path = public/jquery/gritter
+	url = git@github.com:sandro-pasquali/Gritter.git
