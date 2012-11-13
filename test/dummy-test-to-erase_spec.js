@@ -1,0 +1,1 @@
+ var should 	= require('should'); var Person = require(__dirname + '/src/dummy-test-to-erase.js'); describe('Person', function() { it('should say hello', function() { var person 	= new global.joostTesting.Person; person.sayHello('Sandro').should.equal('Hello, Sandro!'); }); });

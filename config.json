@@ -1,0 +1,16 @@
+{
+	"application_name"		: "talk",
+	"target_server"			: "/talk",
+	"target_port"			: "443",
+	"target_protocol"		: "https",
+	"target_host"			: "127.0.0.1",
+
+	"ping_interval"			: "15000",
+
+	"mailer_from"			: "spasquali@gmail.com",
+	"mailer_default_subj"	: "New Message",
+
+	"_regexp_username" 		: "return a.match(/\\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,4}\\b/)",
+	"_regexp_password"		: "return a.match(/^\\w{6,}$/)",
+	"_regexp_email"			: "return a.match(/^([a-zA-Z0-9_\\.\\-])+\\@(([a-zA-Z0-9\\-])+\\.)+([a-zA-Z0-9]{2,4})+$/)"
+}

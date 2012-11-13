@@ -1,0 +1,24 @@
+{
+  "name": "talk",
+  "version": "0.1.0",
+  "description": "Team focusing software.",
+  "keywords": ["writing","nodejs","express", "route"],
+  "homepage": "",
+  "author": "Sandro Pasquali <spasquali@gmail.com>",
+  "dependencies": {
+    "connect"			: "*",
+    "express"			: "*",
+    "mailer"			: "*",
+    "node-uuid"			: "*",
+    "moment"			: "*",
+    "clio"              : "*",
+    "should"			: "*",
+    "mocha"				: "*",
+    "github"			: "*",
+    "imap"				: "*",
+    "mailparser"		: "*",
+    "mies"				: "*"
+
+  },
+  "engine": "node >= 0.8.0"
+}
