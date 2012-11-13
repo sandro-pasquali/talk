@@ -1,9 +1,8 @@
 {
 	"application_name"		: "talk",
-	"target_server"			: "/talk",
-	"target_port"			: "443",
 	"target_protocol"		: "https",
 	"target_host"			: "127.0.0.1",
+	"target_port"			: "2112",
 
 	"ping_interval"			: "15000",
 

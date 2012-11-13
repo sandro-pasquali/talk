@@ -256,7 +256,7 @@ app.all("*", function(req, res, next) {
 app.post("/routes/fetch", auth, function(req, res, next) {
 
 	var talkCall = https.request({
-		host: server.config.target_host || "127.0.0.1",
+		host: server_config.target_host || "127.0.0.1",
 		port: server_config.target_port || "80",
 		path: '/talk',
 		method: 'POST',
@@ -267,7 +267,6 @@ app.post("/routes/fetch", auth, function(req, res, next) {
 			data += chunk;
 		});
 		response.on('end', function() {
-
 			var routes	= JSON.parse(data);
 			var def		= authed[createAuthKey(req.remoteUser, req.password)].imapDef;
 			var imap;
